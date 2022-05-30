@@ -16,6 +16,7 @@ module.exports = {
     hotOnly: false,
     // 查阅 https://github.com/vuejs/vue-doc-zh-cn/vue-cli/cli-service.md#配置代理
     proxy: {
+      // 重要配置代理
       "/api": {
         target: "localhost:8000/api/login",
         changeOrigin: true
